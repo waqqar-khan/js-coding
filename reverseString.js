@@ -11,14 +11,14 @@ function reverse(str) {
 
 console.log(reverse("apple"));
 
-// 2nd way to solve the problem
+// 2nd alternative solution
 // function reverse(str){
 //     return str.split('').reduce((rev, char) => char + rev,'');
 // }
 
 // console.log(reverse('hello'));
 
-// 3rd way to solve the problem
+// 3rd alternative solution
 // function reverse(str){
 //     let rev = '';
 //     for(let char of str){

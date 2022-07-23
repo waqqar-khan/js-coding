@@ -10,6 +10,7 @@ function palindrome(str) {
 
 console.log(palindrome("abba"));
 
+
 // 2nd alternative solution
 // function palindrome(str){
 //     return str.split('').every((char,i)=>{
