@@ -6,3 +6,4 @@
 `2. Palindrome`<br />
 `3. Reverse Integer`<br />
 `4. Maximum Character`<br />
+`5. Fizz Buzz`<br />
