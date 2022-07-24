@@ -1,8 +1,6 @@
 # Basic JavaScript coding practise
 
----
 ## Problem Solution
----
 
 `1. Reverse String`<br />
 `2. Palindrome`<br />
