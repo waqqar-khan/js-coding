@@ -1,6 +1,6 @@
 # Basic JavaScript coding practise
 
-## Problem Solution
+## Problem Statement
 
 `1. Reverse String`<br />
 `2. Palindrome`<br />
