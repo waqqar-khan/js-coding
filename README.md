@@ -2,7 +2,7 @@
 Basic JavaScript coding practise
 
 ---
-Problem Solution
+##Problem Solution
 ---
 
 `1. Reverse String`
