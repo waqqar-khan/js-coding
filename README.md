@@ -7,3 +7,4 @@
 `3. Reverse Integer`<br />
 `4. Maximum Character`<br />
 `5. Fizz Buzz`<br />
+`6. SubArray of required size`<br />
