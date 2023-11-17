@@ -26,3 +26,6 @@
 `22. Contains Duplicate`<br />
 `23. Two Sum`<br />
 `24. Defanging an IP Address`<br />
+`25. Flatten Multi Nested Array into 1D Array`<br />
+`26. Count Occurrences`<br />
+`27. Sort Count Occurrences`<br />
