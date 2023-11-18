@@ -2,15 +2,15 @@
 
 ## Problem Statement
 
-`1. Reverse String`<br />
-`2. Palindrome Number`<br />
-`3. Valid Palindrome`<br />
-`4. Reverse Integer`<br />
-`5. Maximum Character`<br />
-`6. Fizz Buzz`<br />
-`7. SubArray of required size`<br />
-`8. Plus One`<br />
-`9. Move Zeroes`<br />
+`01. Reverse String`<br />
+`02. Palindrome Number`<br />
+`03. Valid Palindrome`<br />
+`04. Reverse Integer`<br />
+`05. Maximum Character`<br />
+`06. Fizz Buzz`<br />
+`07. SubArray of required size`<br />
+`08. Plus One`<br />
+`09. Move Zeroes`<br />
 `10. Valid Anagram`<br />
 `11. Merge Sorted Array`<br />
 `12. Split a String in Balanced Strings`<br />
