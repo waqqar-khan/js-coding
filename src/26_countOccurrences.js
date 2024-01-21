@@ -2,32 +2,63 @@
 // Output: ["apple_3","litchi_1","mango_2","guava_1"]
 
 function countFruits(fruits) {
-  // This code defines a function countFruits that takes an array of fruits
-  // as input and returns the desired output array. The fruitCount object
-  // is used to keep track of the occurrences of each fruit, and then Object.
-  // keys and map are used to create the final output array.
-  const fruitCount = {};
+    const fruitCount = {};
+  
+  // Step 1: Count occurrences of each fruit
+  for (const fruit of fruits) {
+    if (fruitCount[fruit]) {
+      // If the fruit is already a key in the fruitCount object, increment its value by 1
+      fruitCount[fruit]++;
+    } else {
+      // If not, initialize it with a count of 1
+      fruitCount[fruit] = 1;
+    }
+  }
 
-  // Count occurrences of each fruit
-  fruits.forEach((fruit) => {
-    fruitCount[fruit] = (fruitCount[fruit] || 0) + 1;
-  });
+  // Step 2: Create the output array
+  const output = [];
+  for (const fruit in fruitCount) {
+    output.push(`${fruit}_${fruitCount[fruit]}`);
+  }
 
-  // Create the output array
-  const output = Object.keys(fruitCount).map(
-    (fruit) => `${fruit}_${fruitCount[fruit]}`
-  );
-
+  // Step 3: Return the final output array
   return output;
+  
 }
-
 // Example usage
 const input = ["apple", "litchi", "mango", "mango", "apple", "guava", "apple"];
 const output = countFruits(input);
 
 console.log(output);
 
-// 2nd Approach
+// <--- 2nd Approach -->
+// function countFruits(fruits) {
+  // This code defines a function countFruits that takes an array of fruits
+  // as input and returns the desired output array. The fruitCount object
+  // is used to keep track of the occurrences of each fruit, and then Object.
+  // keys and map are used to create the final output array.
+  // const fruitCount = {};
+
+  // Count occurrences of each fruit
+  // fruits.forEach((fruit) => {
+  //   fruitCount[fruit] = (fruitCount[fruit] || 0) + 1;
+  // });
+
+  // Create the output array
+//   const output = Object.keys(fruitCount).map(
+//     (fruit) => `${fruit}_${fruitCount[fruit]}`
+//   );
+
+//   return output;
+// }
+
+// Example usage
+// const input = ["apple", "litchi", "mango", "mango", "apple", "guava", "apple"];
+// const output = countFruits(input);
+
+// console.log(output);
+
+// <--- 3rd Approach --->
 // <--
 // reduce Method: The reduce method is used to iterate over the array of fruits (fruits).
 // It accumulates the counts of each fruit in the fruitCount object.
