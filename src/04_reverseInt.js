@@ -22,9 +22,14 @@ console.log(reversedInt(-540));
 
 // 2nd alternative solution
 // function reversedInt(num){
-//     const revNum = num.toString().split('').reverse().join('');
-
-//     return parseInt(revNum) * Math.sign(num);
+  // Store the sign of the number
+    //const sign = Math.sign(num);
+    
+    // Convert to string, remove the sign if negative, reverse, and convert back to integer
+   //const revNum = Math.abs(num).toString().split('').reverse().join('');
+    
+    // Parse the reversed string and restore the sign
+    //return parseInt(revNum) * sign;
 // }
 
 // console.log(reversedInt(-73));
