@@ -30,3 +30,4 @@
 `26. Count Occurrences`<br />
 `27. Sort Count Occurrences`<br />
 `28. Group By Specific/Single Key in Array of Objects`<br />
+`29. Remove Hash Characters`<br />
